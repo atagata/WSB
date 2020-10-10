@@ -12,6 +12,7 @@ def factorial(integer):
            factorial *= i 
     return factorial
 
+
 def factorialWhile(integer):
     i = 1
     factorial = 1
@@ -25,7 +26,7 @@ def factorialWhile(integer):
             i += 1
     return factorial
 
-
 integer = int(input("Podaj liczbę całkowitą: "))
 print(factorial(integer))
 print(factorialWhile(integer))
+
